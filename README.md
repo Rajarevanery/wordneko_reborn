@@ -150,52 +150,43 @@ This allows WordNeko to double as a **personal vocabulary trainer**.
 ---
 
 ## 📁 Project Structure
-wordneko/
-├─ node_modules/
-├─ public/
+## 📁 Project Structure
 
+```txt
+wordneko/
 ├─ src/
 │  ├─ _auth/
 │  │  ├─ layout/
-│  │  │  └─ AuthLayout.tsx        # Auth page layout (login/register)
+│  │  │  └─ AuthLayout.tsx
 │  │  └─ pages/
-│  │     ├─ Signin.tsx            # Sign in page
-│  │     └─ Signup.tsx            # Sign up / register page
+│  │     ├─ Signin.tsx
+│  │     └─ Signup.tsx
 │  │
 │  ├─ _root/
-│  │  ├─ layout/                  # Main app layout
-│  │  └─ pages/                   # Main game pages
+│  │  ├─ layout/
+│  │  └─ pages/
 │  │
 │  ├─ api/
-│  │  └─ api.ts                   # API & Supabase client logic
+│  │  └─ api.ts
 │  │
 │  ├─ assets/
 │  │  ├─ react.svg
-│  │  └─ speedle_icon.png         # App / game icon
+│  │  └─ speedle_icon.png
 │  │
-│  ├─ components/                 # Reusable UI components
-│  ├─ constant/                   # App-wide constants
-│  ├─ context/                    # React contexts (auth, game state, etc.)
-│  ├─ lib/                        # Utility & helper functions
-│  ├─ routes/                     # App routing configuration
-│  ├─ styles/                     # Global & shared styles
-│  ├─ ts/                         # Shared TypeScript helpers/types
+│  ├─ components/
+│  ├─ constant/
+│  ├─ context/
+│  ├─ lib/
+│  ├─ routes/
+│  ├─ styles/
+│  ├─ ts/
 │  │
-│  ├─ App.tsx                     # App entry & route wrapper
-│  ├─ main.tsx                    # React DOM bootstrap
-│  ├─ index.css                   # Global CSS / Tailwind entry
-│  └─ vite-env.d.ts               # Vite TypeScript types
+│  ├─ App.tsx
+│  ├─ main.tsx
+│  └─ index.css
 │
-├─ .env                           # Environment variables
-├─ .gitignore
-├─ eslint.config.js
 ├─ index.html
 ├─ package.json
-├─ package-lock.json
 ├─ README.md
-├─ tailwind.config.js
-├─ tsconfig.json
-├─ tsconfig.app.json
-├─ tsconfig.node.json
-├─ vercel.json                    # Deployment config
+└─ vite.config.ts
 
