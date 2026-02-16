@@ -110,6 +110,28 @@ This allows WordNeko to double as a **personal vocabulary trainer**.
 
 ---
 
+
+
+---
+
+## Screenshots
+
+<img width="1915" height="937" alt="image" src="https://github.com/user-attachments/assets/f230bec4-b980-4793-a02c-77fe5c7e323d" />
+<img width="1918" height="950" alt="image" src="https://github.com/user-attachments/assets/9b22aba7-6a15-469e-873b-5c19e0658fed" />
+<img width="1919" height="938" alt="image" src="https://github.com/user-attachments/assets/e122641d-d23c-4339-9f8d-19da6263c464" />
+<img width="1916" height="946" alt="image" src="https://github.com/user-attachments/assets/6c33899e-892c-4de0-bc07-3f02a345fcde" />
+<img width="1915" height="930" alt="image" src="https://github.com/user-attachments/assets/90330d3b-2677-4546-9647-07be274de881" />
+<img width="1916" height="945" alt="image" src="https://github.com/user-attachments/assets/914355de-e2dc-4135-8a14-9971d882fcb1" />
+<img width="1917" height="940" alt="image" src="https://github.com/user-attachments/assets/cb85cda1-3810-4e56-baff-1964f83f8078" />
+<img width="1916" height="941" alt="image" src="https://github.com/user-attachments/assets/537aff46-a46e-4150-8ea5-6ca0e711c08b" />
+<img width="1915" height="945" alt="image" src="https://github.com/user-attachments/assets/8afdf29e-1330-4fca-a109-6878f65ae581" />
+<img width="1913" height="942" alt="image" src="https://github.com/user-attachments/assets/bfc085ed-a3f9-4897-9231-0e53f0905c53" />
+<img width="1913" height="915" alt="image" src="https://github.com/user-attachments/assets/ae40321a-1edc-4447-8d24-18e6f0171411" />
+<img width="1912" height="937" alt="image" src="https://github.com/user-attachments/assets/7f9803b8-ef33-4d19-8cd8-b95d87df71d3" />
+
+
+---
+
 ## ✨ Features
 
 - ⚡ Lightning-fast dev experience with **Vite**
@@ -188,4 +210,5 @@ wordneko/
 ├─ package.json
 ├─ README.md
 └─ vite.config.ts
+
 
