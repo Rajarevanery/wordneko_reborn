@@ -1,0 +1,310 @@
+{
+  "id": "0",
+  "name": "Kotoban",
+  "createdAt": "2025-02-08T07:47:57.026Z",
+  "updatedAt": "2025-02-08T07:47:57.026Z",
+  "databaseType": "postgresql",
+  "tables": [
+    {
+      "id": "1",
+      "name": "category",
+      "x": 266.22632666268265,
+      "y": 294.7852063993146,
+      "fields": [
+        {
+          "id": "2",
+          "name": "category_id",
+          "type": {
+            "id": "bigint",
+            "name": "bigint"
+          },
+          "unique": true,
+          "nullable": true,
+          "primaryKey": true,
+          "createdAt": 1738998961427
+        },
+        {
+          "id": "3",
+          "name": "users_id",
+          "type": {
+            "id": "bigint",
+            "name": "bigint"
+          },
+          "unique": false,
+          "nullable": false,
+          "primaryKey": false,
+          "createdAt": 1738995694490
+        },
+        {
+          "id": "4",
+          "name": "category_name",
+          "type": {
+            "name": "char",
+            "id": "char"
+          },
+          "unique": false,
+          "nullable": true,
+          "primaryKey": false,
+          "createdAt": 1738997263569
+        }
+      ],
+      "indexes": [],
+      "color": "#ff6b8a",
+      "createdAt": 1738995694490,
+      "isView": false,
+      "order": 1,
+      "diagramId": "7zo5wik9etxl"
+    },
+    {
+      "id": "5",
+      "name": "leaderboard / user score",
+      "x": 894.8560888780597,
+      "y": -340.9311726472972,
+      "fields": [
+        {
+          "id": "6",
+          "name": "score_id",
+          "type": {
+            "id": "bigint",
+            "name": "bigint"
+          },
+          "unique": true,
+          "nullable": false,
+          "primaryKey": true,
+          "createdAt": 1738999449047
+        },
+        {
+          "id": "7",
+          "name": "games_id",
+          "type": {
+            "id": "bigint",
+            "name": "bigint"
+          },
+          "unique": false,
+          "nullable": true,
+          "primaryKey": false,
+          "createdAt": 1738999671318
+        },
+        {
+          "id": "8",
+          "name": "user_id",
+          "type": {
+            "id": "bigint",
+            "name": "bigint"
+          },
+          "unique": false,
+          "nullable": true,
+          "primaryKey": false,
+          "createdAt": 1738999694187
+        },
+        {
+          "id": "9",
+          "name": "score",
+          "type": {
+            "id": "bigint",
+            "name": "bigint"
+          },
+          "unique": false,
+          "nullable": true,
+          "primaryKey": false,
+          "createdAt": 1738999755404
+        },
+        {
+          "id": "10",
+          "name": "timestamp",
+          "type": {
+            "name": "timestamp",
+            "id": "timestamp"
+          },
+          "unique": false,
+          "nullable": true,
+          "primaryKey": false,
+          "createdAt": 1739000041752
+        }
+      ],
+      "indexes": [],
+      "color": "#9ef07a",
+      "createdAt": 1738999449047,
+      "isView": false,
+      "order": 4,
+      "diagramId": "7zo5wik9etxl"
+    },
+    {
+      "id": "11",
+      "name": "users",
+      "x": 321.35697604635766,
+      "y": -421.429053004352,
+      "fields": [
+        {
+          "id": "12",
+          "name": "id",
+          "type": {
+            "id": "bigint",
+            "name": "bigint"
+          },
+          "unique": true,
+          "nullable": false,
+          "primaryKey": true,
+          "createdAt": 1738995648941
+        },
+        {
+          "id": "13",
+          "name": "first_name",
+          "type": {
+            "name": "char",
+            "id": "char"
+          },
+          "unique": false,
+          "nullable": true,
+          "primaryKey": false,
+          "createdAt": 1738995670187
+        },
+        {
+          "id": "14",
+          "name": "last_name",
+          "type": {
+            "name": "char",
+            "id": "char"
+          },
+          "unique": false,
+          "nullable": true,
+          "primaryKey": false,
+          "createdAt": 1738995680337
+        }
+      ],
+      "indexes": [],
+      "color": "#4dee8a",
+      "createdAt": 1738995648941,
+      "isView": false,
+      "order": 0,
+      "diagramId": "7zo5wik9etxl"
+    },
+    {
+      "id": "15",
+      "name": "games",
+      "x": 621.5693654727278,
+      "y": 0.6254115196154792,
+      "fields": [
+        {
+          "id": "16",
+          "name": "id",
+          "type": {
+            "id": "bigint",
+            "name": "bigint"
+          },
+          "unique": true,
+          "nullable": false,
+          "primaryKey": true,
+          "createdAt": 1738999291061
+        },
+        {
+          "id": "17",
+          "name": "name",
+          "type": {
+            "name": "enum",
+            "id": "enum"
+          },
+          "unique": false,
+          "nullable": true,
+          "primaryKey": false,
+          "createdAt": 1738999308543
+        }
+      ],
+      "indexes": [],
+      "color": "#c05dcf",
+      "createdAt": 1738999291061,
+      "isView": false,
+      "order": 3,
+      "diagramId": "7zo5wik9etxl"
+    },
+    {
+      "id": "18",
+      "name": "vocabulary",
+      "x": 308.80548505371786,
+      "y": -2.6301892238770566,
+      "fields": [
+        {
+          "id": "19",
+          "name": "category_id",
+          "type": {
+            "id": "bigint",
+            "name": "bigint"
+          },
+          "unique": true,
+          "nullable": false,
+          "primaryKey": true,
+          "createdAt": 1738996505837
+        },
+        {
+          "id": "20",
+          "name": "vocab",
+          "type": {
+            "name": "char",
+            "id": "char"
+          },
+          "unique": false,
+          "nullable": true,
+          "primaryKey": false,
+          "createdAt": 1738997247029
+        }
+      ],
+      "indexes": [],
+      "color": "#b067e9",
+      "createdAt": 1738996505837,
+      "isView": false,
+      "order": 2,
+      "diagramId": "7zo5wik9etxl"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "21",
+      "name": "category_id_fk",
+      "sourceTableId": "1",
+      "targetTableId": "11",
+      "sourceFieldId": "3",
+      "targetFieldId": "12",
+      "sourceCardinality": "one",
+      "targetCardinality": "many",
+      "createdAt": 1738996795621,
+      "diagramId": "7zo5wik9etxl"
+    },
+    {
+      "id": "22",
+      "name": "leaderboard / user score_games_id_fk",
+      "sourceTableId": "5",
+      "targetTableId": "15",
+      "sourceFieldId": "7",
+      "targetFieldId": "16",
+      "sourceCardinality": "one",
+      "targetCardinality": "many",
+      "createdAt": 1739000236865,
+      "diagramId": "7zo5wik9etxl"
+    },
+    {
+      "id": "23",
+      "name": "leaderboard / user score_user_id_fk",
+      "sourceTableId": "5",
+      "targetTableId": "11",
+      "sourceFieldId": "8",
+      "targetFieldId": "12",
+      "sourceCardinality": "one",
+      "targetCardinality": "many",
+      "createdAt": 1739000244757,
+      "diagramId": "7zo5wik9etxl"
+    },
+    {
+      "id": "24",
+      "name": "vocabulary_id_fk",
+      "sourceTableId": "18",
+      "targetTableId": "1",
+      "sourceFieldId": "19",
+      "targetFieldId": "2",
+      "sourceCardinality": "one",
+      "targetCardinality": "many",
+      "createdAt": 1738998997948,
+      "diagramId": "7zo5wik9etxl"
+    }
+  ],
+  "dependencies": []
+}

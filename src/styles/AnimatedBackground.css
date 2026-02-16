@@ -1,0 +1,38 @@
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.square {
+  position: absolute;
+  opacity: 0;
+  background-color: rgba(85, 85, 85, 0.8);
+  border-radius: 1rem;
+  animation: floatSquare linear infinite;
+  filter: blur(2px);
+}
+
+html.dark .square {
+  background-color: rgba(235, 235, 235, 0.8);
+}
+
+@keyframes floatSquare {
+  0% {
+    transform: translateY(100vh) rotate(0deg);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-20vh) rotate(180deg);
+  }
+  100% {
+    transform: translateY(-100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
