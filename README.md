@@ -110,11 +110,7 @@ This allows WordNeko to double as a **personal vocabulary trainer**.
 
 ---
 
-
-
----
-
-## Screenshots
+## 📚 Screenshots
 
 <img width="1915" height="937" alt="image" src="https://github.com/user-attachments/assets/f230bec4-b980-4793-a02c-77fe5c7e323d" />
 <img width="1918" height="950" alt="image" src="https://github.com/user-attachments/assets/9b22aba7-6a15-469e-873b-5c19e0658fed" />
