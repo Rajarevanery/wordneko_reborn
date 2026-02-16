@@ -150,7 +150,6 @@ This allows WordNeko to double as a **personal vocabulary trainer**.
 ---
 
 ## 📁 Project Structure
-## 📁 Project Structure
 
 ```txt
 wordneko/
